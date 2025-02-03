@@ -1,0 +1,22 @@
+/* li {
+    /* existing styles */
+} */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+nav img {
+    width: 10%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+}
+.grid img {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* or nowrap, wrap-reverse */
+    justify-content: space-between; /* or center, flex-start, etc. */
+}
